@@ -1,0 +1,30 @@
+.FeedbackList {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5px;
+}
+
+.FeedbackButton {
+    width: 300px;
+    height: 50px;
+
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    text-align: center;
+}
+
+.FeedbackButton:hover,
+.FeedbackButton:focus {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,12 @@
+.StatisticList {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: space-between;
+    list-style: none;
+    gap: 5px;
+}
+
+.StatisticItem {
+
+}
