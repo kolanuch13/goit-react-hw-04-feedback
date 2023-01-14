@@ -7,7 +7,7 @@ const Feedback = () => {
     const [good, setGood] = useState(0);
     const [neutral, setNeutral] = useState(0);
     const [bad, setBad] = useState(0);
-    const [total, setTotal] = useState(-2);
+    const [total, setTotal] = useState(-1);
     const [rate, setRate] = useState(0)
 
     useEffect(() => {
